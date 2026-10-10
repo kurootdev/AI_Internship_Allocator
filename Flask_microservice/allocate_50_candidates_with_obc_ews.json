@@ -1,0 +1,876 @@
+curl -X POST http://127.0.0.1:5000/allocate   -H "Content-Type: application/json"  -d '{
+  "candidates": [
+    {
+      "candidateId": "C1",
+      "skills": [
+        "SQL",
+        "TensorFlow",
+        "Node",
+        "scikit-learn"
+      ],
+      "degree": "B.Tech",
+      "major": "AI",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "General",
+      "isRural": false
+    },
+    {
+      "candidateId": "C2",
+      "skills": [
+        "Flask",
+        "scikit-learn",
+        "NumPy",
+        "SQL",
+        "React",
+        "PyTorch"
+      ],
+      "degree": "B.Tech",
+      "major": "IT",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 2,
+      "socialCategory": "OBC",
+      "isRural": false
+    },
+    {
+      "candidateId": "C3",
+      "skills": [
+        "Machine Learning",
+        "TensorFlow"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "SC",
+      "isRural": true
+    },
+    {
+      "candidateId": "C4",
+      "skills": [
+        "Java",
+        "SQLite",
+        "PostgreSQL",
+        "Pandas",
+        "C++",
+        "PyTorch"
+      ],
+      "degree": "B.Tech",
+      "major": "AI",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 1,
+      "socialCategory": "General",
+      "isRural": false
+    },
+    {
+      "candidateId": "C5",
+      "skills": [
+        "C++",
+        "Django",
+        "PostgreSQL"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 2,
+      "socialCategory": "OBC",
+      "isRural": true
+    },
+    {
+      "candidateId": "C6",
+      "skills": [
+        "TensorFlow",
+        "scikit-learn",
+        "Node"
+      ],
+      "degree": "B.Tech",
+      "major": "DS",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "OBC",
+      "isRural": false
+    },
+    {
+      "candidateId": "C7",
+      "skills": [
+        "React",
+        "SQL"
+      ],
+      "degree": "B.Tech",
+      "major": "DS",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "SC",
+      "isRural": true
+    },
+    {
+      "candidateId": "C8",
+      "skills": [
+        "Machine Learning",
+        "SQLite",
+        "Node",
+        "scikit-learn"
+      ],
+      "degree": "B.Tech",
+      "major": "IT",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "EWS",
+      "isRural": false
+    },
+    {
+      "candidateId": "C9",
+      "skills": [
+        "Java",
+        "SQLite",
+        "scikit-learn",
+        "Pandas"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "EWS",
+      "isRural": false
+    },
+    {
+      "candidateId": "C10",
+      "skills": [
+        "C++",
+        "Flask",
+        "Python"
+      ],
+      "degree": "B.Tech",
+      "major": "AI",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "General",
+      "isRural": true
+    },
+    {
+      "candidateId": "C11",
+      "skills": [
+        "Java",
+        "scikit-learn",
+        "PostgreSQL",
+        "C++"
+      ],
+      "degree": "B.Tech",
+      "major": "AI",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "ST",
+      "isRural": false
+    },
+    {
+      "candidateId": "C12",
+      "skills": [
+        "PostgreSQL",
+        "Pandas",
+        "Java"
+      ],
+      "degree": "B.Tech",
+      "major": "DS",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "General",
+      "isRural": false
+    },
+    {
+      "candidateId": "C13",
+      "skills": [
+        "SQLite",
+        "SQL",
+        "Flask",
+        "Django"
+      ],
+      "degree": "B.Tech",
+      "major": "IT",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 1,
+      "socialCategory": "General",
+      "isRural": false
+    },
+    {
+      "candidateId": "C14",
+      "skills": [
+        "Flask",
+        "Node",
+        "PyTorch",
+        "Java",
+        "SQLite"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 2,
+      "socialCategory": "ST",
+      "isRural": false
+    },
+    {
+      "candidateId": "C15",
+      "skills": [
+        "C++",
+        "PyTorch"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "EWS",
+      "isRural": false
+    },
+    {
+      "candidateId": "C16",
+      "skills": [
+        "Django",
+        "PostgreSQL",
+        "SQLite"
+      ],
+      "degree": "B.Tech",
+      "major": "DS",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 2,
+      "socialCategory": "General",
+      "isRural": true
+    },
+    {
+      "candidateId": "C17",
+      "skills": [
+        "Node",
+        "PostgreSQL",
+        "scikit-learn",
+        "Machine Learning",
+        "Python"
+      ],
+      "degree": "B.Tech",
+      "major": "AI",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "OBC",
+      "isRural": true
+    },
+    {
+      "candidateId": "C18",
+      "skills": [
+        "NumPy",
+        "React",
+        "Django"
+      ],
+      "degree": "B.Tech",
+      "major": "CS",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "General",
+      "isRural": true
+    },
+    {
+      "candidateId": "C19",
+      "skills": [
+        "PyTorch",
+        "SQLite",
+        "TensorFlow"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 1,
+      "socialCategory": "EWS",
+      "isRural": true
+    },
+    {
+      "candidateId": "C20",
+      "skills": [
+        "Node",
+        "PostgreSQL",
+        "TensorFlow",
+        "NumPy",
+        "Flask"
+      ],
+      "degree": "B.Tech",
+      "major": "CS",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 1,
+      "socialCategory": "SC",
+      "isRural": false
+    },
+    {
+      "candidateId": "C21",
+      "skills": [
+        "Java",
+        "Pandas"
+      ],
+      "degree": "B.Tech",
+      "major": "IT",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "SC",
+      "isRural": true
+    },
+    {
+      "candidateId": "C22",
+      "skills": [
+        "C++",
+        "Python",
+        "Django"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "SC",
+      "isRural": true
+    },
+    {
+      "candidateId": "C23",
+      "skills": [
+        "Node",
+        "Python",
+        "TensorFlow",
+        "Pandas",
+        "PyTorch"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "SC",
+      "isRural": false
+    },
+    {
+      "candidateId": "C24",
+      "skills": [
+        "SQLite",
+        "NumPy",
+        "C++",
+        "Django",
+        "Node"
+      ],
+      "degree": "B.Tech",
+      "major": "IT",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 1,
+      "socialCategory": "SC",
+      "isRural": false
+    },
+    {
+      "candidateId": "C25",
+      "skills": [
+        "Java",
+        "Machine Learning",
+        "NumPy"
+      ],
+      "degree": "B.Tech",
+      "major": "IT",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "OBC",
+      "isRural": false
+    },
+    {
+      "candidateId": "C26",
+      "skills": [
+        "PostgreSQL",
+        "Java",
+        "TensorFlow",
+        "Pandas",
+        "C++"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 1,
+      "socialCategory": "OBC",
+      "isRural": false
+    },
+    {
+      "candidateId": "C27",
+      "skills": [
+        "Node",
+        "Machine Learning",
+        "C++",
+        "Pandas",
+        "scikit-learn",
+        "Flask"
+      ],
+      "degree": "B.Tech",
+      "major": "DS",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 1,
+      "socialCategory": "OBC",
+      "isRural": false
+    },
+    {
+      "candidateId": "C28",
+      "skills": [
+        "SQLite",
+        "scikit-learn",
+        "PyTorch"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "SC",
+      "isRural": false
+    },
+    {
+      "candidateId": "C29",
+      "skills": [
+        "C++",
+        "NumPy",
+        "scikit-learn",
+        "SQL"
+      ],
+      "degree": "B.Tech",
+      "major": "DS",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 1,
+      "socialCategory": "SC",
+      "isRural": true
+    },
+    {
+      "candidateId": "C30",
+      "skills": [
+        "Pandas",
+        "SQL",
+        "NumPy",
+        "Java",
+        "React"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "ST",
+      "isRural": false
+    },
+    {
+      "candidateId": "C31",
+      "skills": [
+        "SQLite",
+        "Python",
+        "Node",
+        "PostgreSQL",
+        "C++",
+        "SQL"
+      ],
+      "degree": "B.Tech",
+      "major": "DS",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "ST",
+      "isRural": true
+    },
+    {
+      "candidateId": "C32",
+      "skills": [
+        "Node",
+        "Django",
+        "Flask"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 1,
+      "socialCategory": "SC",
+      "isRural": false
+    },
+    {
+      "candidateId": "C33",
+      "skills": [
+        "scikit-learn",
+        "Node",
+        "PostgreSQL",
+        "Machine Learning",
+        "Django",
+        "NumPy"
+      ],
+      "degree": "B.Tech",
+      "major": "DS",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 1,
+      "socialCategory": "ST",
+      "isRural": true
+    },
+    {
+      "candidateId": "C34",
+      "skills": [
+        "React",
+        "Flask",
+        "scikit-learn",
+        "Pandas",
+        "C++"
+      ],
+      "degree": "B.Tech",
+      "major": "CS",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "EWS",
+      "isRural": true
+    },
+    {
+      "candidateId": "C35",
+      "skills": [
+        "C++",
+        "Django",
+        "React"
+      ],
+      "degree": "B.Tech",
+      "major": "IT",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "SC",
+      "isRural": false
+    },
+    {
+      "candidateId": "C36",
+      "skills": [
+        "PyTorch",
+        "Flask",
+        "scikit-learn"
+      ],
+      "degree": "B.Tech",
+      "major": "CS",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "EWS",
+      "isRural": false
+    },
+    {
+      "candidateId": "C37",
+      "skills": [
+        "Node",
+        "Python",
+        "TensorFlow",
+        "NumPy",
+        "React"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 2,
+      "socialCategory": "ST",
+      "isRural": true
+    },
+    {
+      "candidateId": "C38",
+      "skills": [
+        "C++",
+        "SQLite",
+        "Python",
+        "PostgreSQL",
+        "PyTorch"
+      ],
+      "degree": "B.Tech",
+      "major": "AI",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "General",
+      "isRural": true
+    },
+    {
+      "candidateId": "C39",
+      "skills": [
+        "Django",
+        "PyTorch",
+        "React",
+        "Machine Learning",
+        "TensorFlow",
+        "C++"
+      ],
+      "degree": "B.Tech",
+      "major": "AI",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 1,
+      "socialCategory": "SC",
+      "isRural": true
+    },
+    {
+      "candidateId": "C40",
+      "skills": [
+        "PyTorch",
+        "Flask",
+        "Django",
+        "React"
+      ],
+      "degree": "B.Tech",
+      "major": "DS",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 2,
+      "socialCategory": "ST",
+      "isRural": true
+    },
+    {
+      "candidateId": "C41",
+      "skills": [
+        "NumPy",
+        "Machine Learning"
+      ],
+      "degree": "B.Tech",
+      "major": "AI",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "EWS",
+      "isRural": false
+    },
+    {
+      "candidateId": "C42",
+      "skills": [
+        "React",
+        "SQLite",
+        "PyTorch",
+        "TensorFlow",
+        "Node"
+      ],
+      "degree": "B.Tech",
+      "major": "DS",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "General",
+      "isRural": false
+    },
+    {
+      "candidateId": "C43",
+      "skills": [
+        "SQL",
+        "Flask",
+        "NumPy"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "EWS",
+      "isRural": true
+    },
+    {
+      "candidateId": "C44",
+      "skills": [
+        "SQLite",
+        "PostgreSQL",
+        "Django",
+        "Python"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 1,
+      "socialCategory": "EWS",
+      "isRural": true
+    },
+    {
+      "candidateId": "C45",
+      "skills": [
+        "scikit-learn",
+        "Django",
+        "Python",
+        "PyTorch",
+        "Machine Learning",
+        "Pandas"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "ST",
+      "isRural": true
+    },
+    {
+      "candidateId": "C46",
+      "skills": [
+        "SQLite",
+        "Java",
+        "Node",
+        "PyTorch"
+      ],
+      "degree": "B.Tech",
+      "major": "DS",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "SC",
+      "isRural": false
+    },
+    {
+      "candidateId": "C47",
+      "skills": [
+        "Flask",
+        "Machine Learning",
+        "SQL",
+        "React"
+      ],
+      "degree": "B.Tech",
+      "major": "CS",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "SC",
+      "isRural": true
+    },
+    {
+      "candidateId": "C48",
+      "skills": [
+        "Node",
+        "Django",
+        "Flask",
+        "Java",
+        "scikit-learn",
+        "SQL"
+      ],
+      "degree": "B.Tech",
+      "major": "IT",
+      "preferredLocations": [
+        "Gwalior"
+      ],
+      "pastParticipationCount": 0,
+      "socialCategory": "EWS",
+      "isRural": false
+    },
+    {
+      "candidateId": "C49",
+      "skills": [
+        "Python",
+        "SQL",
+        "TensorFlow",
+        "SQLite"
+      ],
+      "degree": "B.Tech",
+      "major": "ECE",
+      "preferredLocations": [
+        "Bhopal"
+      ],
+      "pastParticipationCount": 2,
+      "socialCategory": "OBC",
+      "isRural": false
+    },
+    {
+      "candidateId": "C50",
+      "skills": [
+        "scikit-learn",
+        "PyTorch",
+        "PostgreSQL"
+      ],
+      "degree": "B.Tech",
+      "major": "AI",
+      "preferredLocations": [
+        "Indore"
+      ],
+      "pastParticipationCount": 2,
+      "socialCategory": "EWS",
+      "isRural": true
+    }
+  ],
+  "internship": 
+    {
+      "internshipId": "INT1",
+      "requiredSkills": [
+        "Python",
+        "Machine Learning",
+        "SQL"
+      ],
+      "sector": "AI",
+      "locationDistrict": "Bhopal",
+      "minDegree": "B.Tech",
+      "capacity": 30,
+      "quotas": {
+        "SC": 5,
+        "ST": 5,
+        "OBC": 7,
+        "EWS": 3,
+        "rural": 10
+      }
+    }
+}'
